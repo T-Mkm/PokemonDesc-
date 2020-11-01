@@ -36,7 +36,8 @@ interface MyArray<T>{
 	[N: number]: T;
 
 	map<U>(fn: (el: T) => U): U[];
-	reduce<U>(fn: (accum: T, el: U) => U): U;
+	
+	reduce<U>(fn: (accum: U, el: T) => U, init: U): U;
 }
 
 function reducer(val1, val2){
@@ -45,7 +46,7 @@ function reducer(val1, val2){
 
 const HmTskArr: MyArray<number> = [1,2,3,4];
 
-HmTskArr.reduce(reducer);
+HmTskArr.reduce(reducer, 5);
 
 
 
