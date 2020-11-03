@@ -6,14 +6,14 @@ let tsSum = (arr: number[]) => arr.reduce((a, b) => a + b);
 
 tsSum([1, 1]);
 
-'2' + 2 => '22';
-'s' - 2 => Nan;
+//'2' + 2 => '22';
+//'s' - 2 => Nan;
 
 const tsString = 's';
 const tsNumber = 2;
 
 const result = tsString + tsNumber;
-const result = +tsString = tsNumber;
+//const result = +tsString = tsNumber;
 
 type StringOrNumber = string | number;
 
