@@ -1,6 +1,8 @@
 import React from 'react';
-import cn from 'classnames';
+import HomePage from "./pages/Home";
+// import cn from 'classnames';
 
+<<<<<<< Updated upstream:src/App.js
 import s from './App.css';
 import './custom.css';
 
@@ -11,5 +13,14 @@ const App = () => {
 		</div>
 		)
 }
+=======
+// import s from './App.module.scss';
+
+const App = () => {
+	console.log('####: Some log');
+
+	return <HomePage />;
+};
+>>>>>>> Stashed changes:src/App.tsx
 
 export default App;
