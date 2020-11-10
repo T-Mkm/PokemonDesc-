@@ -1,0 +1,72 @@
+.root {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #D93E30;
+}
+
+.wrap {
+  position: absolute;
+  left: 0%;
+  right: -0.55%;
+  top: -10.86%;
+  bottom: -10.86%;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 700px;
+  line-height: 818px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  position: absolute;
+  left: 5.69%;
+  right: 5.62%;
+  top: 9.38%;
+  bottom: 25%;
+
+  /* blur24 */
+
+  filter: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
+}
+
+.layer {
+  position: absolute;
+  left: 5.69%;
+  right: 5.62%;
+  top: 9.38%;
+  bottom: 25%;
+}
+
+.TeamRocket {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.subTitle {
+  position: absolute;
+  left: 22.29%;
+  right: 22.22%;
+  top: 72.75%;
+  bottom: 21.78%;
+
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #F2F2F2;
+}
