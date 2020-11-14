@@ -5,7 +5,7 @@ import s from './PokemonCard.module.scss';
 
 const PokemonCard:React.FC = ({children}) => {
     return (
-        <div className={s.root}>
+        <div id={children["id"]} className={s.root}>
             <div className={s.infoWrap}>
                 <Heading size='xs' className={s.titleName}>
                     {children["name_clean"]}
