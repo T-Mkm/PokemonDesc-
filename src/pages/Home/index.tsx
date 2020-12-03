@@ -16,7 +16,7 @@ const HomePage = () => {
 
 			<Layout className={s.contentWrap}>
 				<div className={s.contentText}>
-					<Heading className={s.heading}>
+					<Heading>
 						<b>Find</b> all your favorite <b>Pokemon</b>
 					</Heading>
 					<p>You can know the type of Pokemon, its strength, disadvatages and abilities</p>
@@ -27,7 +27,6 @@ const HomePage = () => {
 
 				<div className={s.contentParallax}>
 					<Parallax />
-					{/*We&apos;ll see Parallax here soon...*/}
 				</div>
 			</Layout>
 		</div>
