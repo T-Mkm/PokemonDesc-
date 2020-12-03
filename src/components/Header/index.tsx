@@ -4,7 +4,7 @@ import {A, usePath} from 'hookrouter';
 
 import s from './Header.module.scss';
 
-import {ReactComponent as pokemonLogoSvg} from './assets/Logo.svg';
+import {ReactComponent as PokemonLogoSvg} from './assets/pokemonLogoSvg.svg';
 // import Layout from "../Layout";
 import {GENERAL_MENU} from "../../routes";
 
@@ -16,12 +16,11 @@ import {GENERAL_MENU} from "../../routes";
 
 const Header = () => {
 	const path = usePath();
-	// console.log('####: path', path);
 	return (
 		<div className={s.root}>
 			<div className={s.wrap}> 
 				<div className={s.pokemonLogo}>
-					<pokemonLogoSvg />
+					<PokemonLogoSvg />
 				</div>
 				<div className={s.menuWrap}>
 					{

@@ -17,7 +17,7 @@ const Parallax = () => {
 			// console.log('####: event', event.screenX);
 			// console.log('####: event', event.screenY);
 			screenX(event.screenX);
-			screenX(event.screenY);
+			screenY(event.screenY);
 		};
 
 		window.addEventListener('mousemove', () => {
